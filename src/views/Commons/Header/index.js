@@ -4,7 +4,7 @@ import { Menu, Button, Input, Dropdown, Container } from 'semantic-ui-react';
 const Header = () => {
     return (
         <>
-        <Menu style={{marginBottom: '0px'}}>
+        <Menu color='blue' inverted style={{marginBottom: '0px'}}>
             <Menu.Item>
                 Our Company
             </Menu.Item>
@@ -32,7 +32,7 @@ const Header = () => {
             </Menu.Menu>
         </Menu>
 
-        <Menu style={{marginTop: '0px'}} fluid>
+        <Menu style={{marginTop: '0px'}} widths={4}>
             <Container>
             <Menu.Item>
             Our Company
