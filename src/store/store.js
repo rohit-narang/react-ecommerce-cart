@@ -1,5 +1,6 @@
 import {createStore} from 'redux';
 import rootReducer from '../reducers/indexReducer';
+import initialState from './initialState';
 
 const store = createStore(
     rootReducer, initialState,
