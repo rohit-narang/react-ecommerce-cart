@@ -8,7 +8,7 @@ import Img3 from '../../assets/images/3.png';
 class OffersCarousel extends Component {
     render() {
         return (
-            <Carousel>
+            <Carousel showThumbs={0} autoPlay={1} infiniteLoop={1}>
                 <div>
                     <img src={Img1} />
                     <p className="legend">Legend 1</p>
